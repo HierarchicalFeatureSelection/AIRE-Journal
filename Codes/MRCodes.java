@@ -4,7 +4,7 @@
 		HashMap<String, String> hmRelevanceMeasurement = new HashMap<String, String>();
 
         for(int i=1; i<MeasurementResults.length; i++){
-        	hmRelevanceMeasurement.put(MeasurementResults[i][0], MeasurementResults[i][7]);
+        	hmRelevanceMeasurement.put(MeasurementResults[i][0], MeasurementResults[i][5]);
         }
         
         HashMap<String, String> hmStatus = new HashMap<String, String>();
