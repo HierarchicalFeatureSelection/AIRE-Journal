@@ -1,4 +1,4 @@
-	public static String[][] MR(HashMap<String, String[]> allPath, String[][] trainingDataset, String[][] testDataset) throws IOException{
+	public static void MR(HashMap<String, String[]> allPath, String[][] trainingDataset, String[][] testDataset) throws IOException{
 			
 		String[][] MeasurementResults = MeasurementResults(trainingDataset);
 		HashMap<String, String> hmRelevanceMeasurement = new HashMap<String, String>();
