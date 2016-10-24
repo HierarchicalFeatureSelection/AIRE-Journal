@@ -1,4 +1,4 @@
-	public static String[][] HIP(HashMap<String, String[]> allPath, String[][] trainingDataset, String[][] testDataset) throws IOException{
+	public static void HIP(HashMap<String, String[]> allPath, String[][] trainingDataset, String[][] testDataset) throws IOException{
 		
         HashMap<String, String> hmStatus = new HashMap<String, String>();
         for(int i=1; i<trainingDataset.length-1; i++){
